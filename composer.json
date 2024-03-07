@@ -1,0 +1,25 @@
+{
+    "name": "adobe/adobe-maintenance-notification-tools",
+    "description": "Adobe Commerce Cloud custom scenario for deploy send notification",
+    "type": "magento2-component",
+    "minimum-stability": "dev",
+    "version": "1.0.1",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Adobe\\MaintenanceNotification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adobe",
+            "email": "ramkir@adobe.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.1",
+        "ext-json": "*",
+        "magento/ece-tools": "*"
+    }
+}
