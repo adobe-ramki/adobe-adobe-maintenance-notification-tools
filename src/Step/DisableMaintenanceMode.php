@@ -40,7 +40,7 @@ class DisableMaintenanceMode implements StepInterface
     /**
      * Maintance mode flag
      */
-    private const MODE = 'ENABLE';
+    private const MODE = 'DISABLE';
 
     /**
      * @var SendResponse
